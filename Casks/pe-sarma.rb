@@ -1,6 +1,6 @@
 cask "pe-sarma" do
-  version "1.0.0"
-  sha256 "8ea3a5d748acc3e201c3444e8d913a8cdd11232144961d201c3460bed1f3bfb7"
+  version "1.1.0"
+  sha256 "f64a02764e6da45cf70e476cd901fad84136926215f2ca1e9201b18e003c5b19"
 
   url "https://github.com/gordasgdc/pe-sarma/releases/download/v#{version}/PeSarma-#{version}.dmg"
   name "Pe sârmă"
@@ -12,7 +12,7 @@ cask "pe-sarma" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "PeSarma.app"
 
