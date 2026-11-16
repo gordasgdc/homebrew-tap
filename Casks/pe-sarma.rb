@@ -1,6 +1,6 @@
 cask "pe-sarma" do
-  version "1.1.1"
-  sha256 "3df9fe0457da833122993ca8239dce698f5ce509e2700d53a30d7ed3bac6d4ee"
+  version "1.1.2"
+  sha256 "dcae135e6c00cb427d088dda0223897a284f28bfe884c5f749c657581f90f403"
 
   url "https://github.com/gordasgdc/pe-sarma/releases/download/v#{version}/PeSarma-#{version}.dmg"
   name "Pe sârmă"
