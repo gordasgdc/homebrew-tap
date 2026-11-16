@@ -2,8 +2,7 @@ cask "pe-sarma" do
   version "1.0.0"
   sha256 "8ea3a5d748acc3e201c3444e8d913a8cdd11232144961d201c3460bed1f3bfb7"
 
-  url "https://github.com/gordasgdc/pe-sarma/releases/download/v#{version}/PeSarma-#{version}.dmg",
-      verified: "github.com/gordasgdc/pe-sarma/"
+  url "https://github.com/gordasgdc/pe-sarma/releases/download/v#{version}/PeSarma-#{version}.dmg"
   name "Pe sârmă"
   desc "Capturi și clipboard agățate pe un fir sub bara de meniu (ediția în limba română a Tendedero)"
   homepage "https://gordas.dev/pe-sarma/"
